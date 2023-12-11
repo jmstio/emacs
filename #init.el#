@@ -82,6 +82,7 @@
   :ensure t
   :init (doom-modeline-mode 1))
 ;;:hook (window-setup . doom-modeline-mode))
+(setq doom-modeline-height 35)
 
 (use-package doom-themes)
 
