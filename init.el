@@ -78,10 +78,13 @@
   :config
   (setq ivy-initial-inputs-alist nil)) ;; Don't start searches with ^
 
+(use-package all-the-icons)
+
 (use-package doom-modeline
   :ensure t
   :init (doom-modeline-mode 1))
 ;;:hook (window-setup . doom-modeline-mode))
+(setq doom-modeline-height 35)
 
 (use-package doom-themes)
 
